@@ -244,7 +244,7 @@ body {
   height: 120px;
   background-image: url(../images/accordeon/decor.jpg);
   bottom: -73;
-
+  left: 268px;
 }
 
 .accordeon__triger {
@@ -272,11 +272,15 @@ body {
   display: none;
 }
 
+.accordeon__item--active .accordeon__content {
+  display: block;
+}
+
 .accordeon__content p {
   margin-bottom: 10px;
 }
 
-. {}
+
 
 . {}
 
