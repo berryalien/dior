@@ -348,28 +348,48 @@ body {
 }
 
 .footer__contact {
-  width: 386px;
-  margin-right: 70px;
+  width: 351px;
+  margin-right: 84px;
 }
 
 .footter__content-img {
   margin-right: 70px;
 }
 
+.footer__contact-form,
 .footer__contact-item {
   margin-bottom: 70px;
 }
 
 .footer__title {
   margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
+
+.footer__contact-input {
+  display: block;
+  width: 100%;
+  max-width: 351px;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  color: rgba(0, 0, 0, 0.40);
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+
 
 .footer__text {
   margin-bottom: 10px;
 }
 
 .footer__social {
-  margin-right: 70px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .footer__social-list {}
@@ -382,9 +402,7 @@ body {
   display: flex;
 }
 
-.footer__info-list {
-
-}
+.footer__info-list {}
 
 .footer__info-item {
   margin-right: 20px;
