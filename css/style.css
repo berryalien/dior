@@ -337,10 +337,12 @@ body {
 
 .footer__inner {
   display: flex;
+  margin-bottom: 70px;
 }
 
 .footer__content {
   display: flex;
+  max-width: 902px;
 }
 
 .footer__logo {
@@ -349,15 +351,17 @@ body {
 
 .footer__contact {
   width: 351px;
-  margin-right: 84px;
+  margin-right: 85px;
 }
 
 .footter__content-img {
+  max-width: 337px;
+  max-height: 390px;
   margin-right: 70px;
 }
 
 .footer__contact-form,
-.footer__contact-item {
+.footer__contact-item:not(:last-child) {
   margin-bottom: 70px;
 }
 
@@ -371,7 +375,7 @@ body {
   display: block;
   width: 100%;
   max-width: 351px;
-  padding: 10px;
+  padding: 10px 10px 10px 0;
   font-family: 'Inter', sans-serif;
   color: rgba(0, 0, 0, 0.40);
   font-size: 12px;
@@ -392,17 +396,19 @@ body {
   flex-direction: column-reverse;
 }
 
-.footer__social-list {}
-
-.footer__social-item {}
-
-.footer__social-link {}
-
-.footer__info {
-  display: flex;
+.footer__social-item {
+  margin-top: 20px;
 }
 
-.footer__info-list {}
+
+
+.footer__info {
+  margin-left: 200px;
+}
+
+.footer__info-list {
+  display: flex;
+}
 
 .footer__info-item {
   margin-right: 20px;
