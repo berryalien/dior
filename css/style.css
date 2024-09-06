@@ -539,6 +539,9 @@ body {
     right: 25px;
   }
 
+  .video__box {
+    min-height: 435px;
+  }
 }
 
 @media (max-width: 630px) {
@@ -620,6 +623,20 @@ body {
 
   .accordeon__item:last-child::after {
     left: 210px;
+  }
+
+  .accordeon {
+    margin-bottom: 140px;
+  }
+
+  .video__box {
+    min-height: 225px;
+  }
+
+  .top,
+  .products,
+  .video {
+    margin-bottom: 50px;
   }
 }
 
